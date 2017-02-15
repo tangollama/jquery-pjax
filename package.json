@@ -9,8 +9,13 @@
       "url": "https://github.com/defunkt/jquery-pjax/blob/master/LICENSE"
     }
   ],
-  "files" : [
+  "files": [
     "LICENSE",
     "jquery.pjax.js"
-  ]
+  ],
+  "dependencies": {
+    "async": "^2.1.4",
+    "sortedlist": "^0.3.1",
+    "string": "^3.3.3"
+  }
 }

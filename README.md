@@ -1,3 +1,14 @@
+# Run instructions
+
+Assumed: node and npm installed
+
+git clone https://github.com/tangollama/jquery-pjax.git
+cd jquery-pjax
+npm install
+node tango.js
+
+Exercise complete!
+
 # pjax = pushState + ajax
 
 
