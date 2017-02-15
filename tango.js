@@ -1,7 +1,5 @@
 const S = require('string');
 const child_process = require('child_process');
-const fs = require('fs');
-
 const git = child_process.exec('git log --format=%ae', (error, stdout, stderr) => {
   if (error) {
     console.error(`exec error: ${error}`);
